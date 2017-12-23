@@ -1,0 +1,8 @@
+ 
+  <template name="iproTemplate">
+    <view class='ipro-container' catchtap="toDetailsTap" >
+          <image class="ipro-img" src="{{image}}"></image>
+          <text class="ipro-title">{{title}}</text>
+          <text class="ipro-price"> <text class='f-32'>¥</text>{{price}}</text>
+    </view>
+  </template>

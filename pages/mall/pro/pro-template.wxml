@@ -1,0 +1,8 @@
+ 
+  <template name="proTemplate">
+    <view class='pro-container' catchtap="toDetailsTap" >
+          <image class="pro-img" src="{{image}}"></image>
+          <text class="pro-title">{{title}}</text>
+          <text class="pro-price"> <text class='f-32'>¥</text>{{price}}  <text class='sales'>销量：{{sales}}</text></text>
+    </view>
+  </template>

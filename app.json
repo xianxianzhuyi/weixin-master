@@ -1,0 +1,54 @@
+{
+  "pages":[    
+    "pages/mall/index/index",
+    "pages/mall/detail/detail",
+    "pages/mall/list/list",
+    "pages/mall/cart/cart",
+    "pages/mall/pay-order/pay-order",
+    "pages/profile/profile",
+    "pages/profile/records/records",
+    "pages/mall/add-address/add-address",
+    "pages/index/index",
+    "pages/search/search",
+    "pages/more-movie/more-movie",
+    "pages/movie-detail/movie-detail",
+    "pages/movie-grid/movie-grid-template",
+    "pages/profile/dingdan"
+    
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#5aa700"
+  },
+  "tabBar":{
+    "color":"#999",
+    "selectedColor":"#42bd56",
+    "background":"#f5f5f5",
+    "list":[
+      {
+        "text": "商城",
+        "iconPath": "images/icon/mall.png",
+        "selectedIconPath": "images/icon/mall-actived.png",
+        "pagePath": "pages/mall/index/index"
+      },
+      {
+        "text": "推荐电影",
+        "iconPath": "images/icon/home.png",
+        "selectedIconPath": "images/icon/home-actived.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "搜索",
+        "iconPath": "images/icon/search.png",
+        "selectedIconPath": "images/icon/search-actived.png",
+        "pagePath": "pages/search/search"
+      },
+      {
+        "text": "我的",
+        "iconPath": "images/icon/profile.png",
+        "selectedIconPath": "images/icon/profile-actived.png",
+        "pagePath": "pages/profile/profile"
+      }
+
+    ]
+  }
+}

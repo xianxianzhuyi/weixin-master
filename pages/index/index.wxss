@@ -1,0 +1,16 @@
+@import "../movie-list/movie-list-template.wxss";
+@import "../movie/movie-template.wxss";
+.swiper_box {
+    height: 400rpx;
+    width: 100%;
+}
+swiper-item image {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+.movies-template {
+  margin-bottom: 20rpx;
+  background: #fff;
+}

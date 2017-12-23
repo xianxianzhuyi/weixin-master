@@ -1,0 +1,35 @@
+.pro-container {
+  width: 46%;
+  position: relative;
+  margin-bottom: 10rpx;
+  background: #fff;
+  padding:10rpx;
+}
+.pro-img {
+  height: 350rpx;
+  width: 350rpx;
+}
+.pro-title {
+  display: -webkit-box;
+  margin-bottom: 16rpx;
+  font-size: 26rpx;
+  height: 72rpx;
+  line-height: 36rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.pro-price {
+  font-size: 32rpx;
+  color:#ff0000;
+}
+.f-32 {
+  font-size: 30rpx;
+  color:#ff0000;
+  padding: 0 3rpx;
+}
+.sales {
+  float: right;
+  color: #999;
+}

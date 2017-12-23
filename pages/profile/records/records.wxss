@@ -1,0 +1,27 @@
+.container {
+  background: #fff;
+  
+}
+.c-r {
+  color: #fe0000;
+}
+.r-item {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  font-size: 12px;
+  line-height: 26px;
+  color: #666;
+  padding:10rpx;
+  justify-content:space-around;
+  border-bottom:1px solid #ddd; 
+}
+.r-item view {
+  width: 42%;
+}
+.r-item view text {
+  display: block;
+}
+.align-r {
+  text-align: right;
+}

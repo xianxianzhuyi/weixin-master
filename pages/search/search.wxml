@@ -1,0 +1,11 @@
+<!--pages/search/search.wxml-->
+<import src="../movie-list/movie-list-template.wxml" />
+<import src="../movie-grid/movie-grid-template.wxml" />
+<view class='search'>
+   <icon type='search' class='search-img' size='13' color='#405f80'></icon>
+   <input type='text' placeholder='请输入您要搜索的内容' placeholder-class="placeholder" bindblur="onBindBlur" value="{{searchinput}}"/>
+   <image src="../../images/icon/cancel.png" class="cancel-img" bindtap="onCancelImgTap"></image>
+</view>
+<view class="search-panel">
+    <template is="movieGridTemplate" data="{{...searchResult}}"/>
+</view>

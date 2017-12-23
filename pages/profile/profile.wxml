@@ -1,0 +1,76 @@
+<!--pages/profile/profile.wxml-->
+<view class='container'>
+    <image class='userbg' src='../../images/profile/center-top-bg.jpg'></image>
+    <image src='{{userInfo.avatarUrl}}' class='user-avatar'></image>
+    <view class='user-name'>{{userInfo.nickName}}</view>
+    <view class='user-fund'>
+            <text>金币：<text class='num'>300</text></text>
+            <text>余额：<text class='num'>￥2550.00</text></text>
+    </view>
+
+<view class='order-all'>
+    <image class='order-all-icon' src='../../images/profile/center-icon-order-all.png'></image>
+    <span class='font_12'>全部订单</span>
+    <navigator class='f_r font_12 lookall' url='../profile/dingdan?currentTab=0' hover-class='none' >查看全部订单 ></navigator>
+</view>
+
+<view class='sc-order'>
+    <navigator class='d-item' url='../profile/dingdan?currentTab=0&otype=pay' hover-class='none' >
+        <view class='order-icon'>
+          <image src="../../images/profile/dfk.png"></image> 
+          <text class="order-tip">2</text>
+        </view>
+        <text class="font_12">待付款</text>
+    </navigator>
+    <navigator class="d-item" url="../profile/dingdan?currentTab=0&otype=pay" hover-class="none" >
+        <view class='order-icon'>
+        <image src="../../images/profile/dfh.png"></image> 
+        <text class="order-tip">10</text>
+        </view>
+        <text class="font_12">待发货</text>
+    </navigator>
+    <navigator class="d-item" url="../profile/dingdan?currentTab=0&otype=pay" hover-class="none" >
+        <view class='order-icon'>
+        <image src="../../images/profile/dsh.png"></image> 
+        <text class="order-tip">1</text>
+        </view>
+        <text class="font_12">待收货</text>
+    </navigator>
+    <navigator class="d-item" url="../profile/dingdan?currentTab=0&otype=pay" hover-class="none" >
+        <view class='order-icon'>
+        <image src="../../images/profile/tksh.png"></image> 
+        <text class="order-tip">0</text>
+        </view>
+        <text class="font_12">退款售后</text>
+    </navigator>
+</view>
+
+<view class='profile-list mt10'>
+    <navigator class="list-item" url="../profile/records/records" hover-class="none">
+      <image class='list-icon' src='../../images/profile/center-icon-jl.png'></image>
+      <span class="user-text font_12">交易记录</span>
+      <span class="righthead"></span>
+    </navigator>
+    <navigator class="list-item" url="../mall/add-address/add-address" hover-class="none">
+      <image class='list-icon' src='../../images/profile/center-icon-dz.png'></image>
+      <span class="user-text font_12">地址管理</span>
+      <span class="righthead"></span>
+    </navigator>
+     <navigator class="list-item" url="../mall/add-address/add-address" hover-class="none">
+      <image class='list-icon' src='../../images/profile/center-icon-sc.png'></image>
+      <span class="user-text font_12">我的收藏</span>
+      <span class="righthead"></span>
+    </navigator>
+    <navigator class="list-item" url="../mall/add-address/add-address" hover-class="none">
+      <image class='list-icon' src='../../images/profile/center-icon-yhk.png'></image>
+      <span class="user-text font_12">我的银行卡</span>
+      <span class="righthead"></span>
+    </navigator>
+    <navigator class="list-item" url="../mall/add-address/add-address" hover-class="none">
+      <image class='list-icon' src='../../images/profile/center-icon-mm.png'></image>
+      <span class="user-text font_12">密码修改</span>
+      <span class="righthead"></span>
+    </navigator>
+</view>
+
+</view>

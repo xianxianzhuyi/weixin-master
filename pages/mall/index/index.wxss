@@ -1,0 +1,120 @@
+@import "../ipro/ipro-template.wxss";
+@import "../pro/pro-template.wxss";
+.swiper_box {
+    height: 240rpx;
+    width: 100%;
+}
+swiper-item image {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+.sc-nav {
+  display: flex;
+  flex-flow: row wrap;
+  background: #fff;
+  width: 100%;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666;
+  padding: 4% 0;
+  text-align: center;
+}
+.sc-nav .n-item {
+  width: 20%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10rpx;
+}
+.sc-nav .n-item image{
+  width: 84rpx;
+  height: 84rpx;
+  display: inline-block;
+  text-align: center
+}
+.sc-nav .n-item text{
+  display: block;
+  line-height: 50rpx;
+  text-align: center
+}
+.ad-img {
+  height: 200rpx;
+  width: 100%;
+}
+.ad-img image{
+  height: 100%;
+  width: 100%;
+}
+.notice {
+  background: #fff;
+  padding: 10rpx 20rpx;
+}
+.swiper_container {
+ height: 55rpx;
+ line-height: 55rpx;
+ width: 100%;
+}
+.swiper_item {
+ font-size: 26rpx;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ letter-spacing: 2px;
+}
+
+.ipro-head {
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  background: #fff;
+  color: #42bd56;
+  padding:10rpx 0;
+}
+.ipro-head-twrap {
+    padding: 10rpx 0;
+    height: 40rpx;
+    line-height: 40rpx;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+}
+.ipro-head-l {
+    font-size: 12px;
+    color: #333;
+    display: block;
+    position: absolute;
+    top: 29rpx;
+    width: 100%;
+    border-top: 2px solid #EB3500;
+}
+.ipro-head-t {
+    color: #EB3500;
+    position: relative;
+    padding: 0 3%;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.ipro-template {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666;
+  padding: 10rpx 0;
+  justify-content:space-around;
+}
+.pro-template {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666;
+  padding: 10rpx 0;
+  justify-content:space-around;
+}

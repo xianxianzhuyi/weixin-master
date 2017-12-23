@@ -1,0 +1,14 @@
+<import src="../pro/pro-template.wxml"/>
+<view class="container">
+  <view class='sorts'>
+      <view class='s-active'>综合</view>
+      <view>销量</view>
+      <view>价格</view>
+  </view>
+  <view class="pro-template">
+          <block wx:for="{{proLists}}" wx:for-item="proList" wx:key="index">
+              <template is="proTemplate" data="{{...proList}}"/>
+          </block>
+  </view>
+</view>
+

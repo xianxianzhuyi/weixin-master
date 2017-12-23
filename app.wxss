@@ -1,0 +1,41 @@
+/**app.wxss**/
+.container {
+  background: #f2f2f2;
+}
+text{
+    font-family: MicroSoft Yahei;
+    font-size: 28rpx;
+    color: #666;
+}
+
+input{
+    font-family: MicroSoft YaHei;
+}
+.f_l {
+  float: left;
+}
+.f_r {
+  float: right;
+}
+.mt10 {
+  margin-top:10rpx;
+}
+.font_12 {
+  font-size: 12px;
+}
+.font_14 {
+  font-size: 14px;
+}
+.search_no{
+    width: 100%; 
+    display: block;
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+}
+.scimg{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-size:100px; 
+}

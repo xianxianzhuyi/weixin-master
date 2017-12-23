@@ -1,0 +1,57 @@
+<import src="../ipro/ipro-template.wxml" />
+<import src="../pro/pro-template.wxml" />
+<view class="container">
+      <view>
+          <swiper class="swiper_box" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
+              autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+              <block wx:for="{{images}}" wx:key="property" >
+                  <swiper-item>
+                      <image src="{{item.picurl}}" class="slide-image"/>
+                  </swiper-item>
+              </block>
+          </swiper>
+      </view>
+      <view class='sc-nav'>
+        <navigator wx:for="{{nav_list}}" class='n-item' url="{{item.url}}" wx:key="{{index}}">
+            <image src="{{item.pic_url}}"></image> 
+            <text class="font_12">{{item.title}}</text>
+        </navigator>
+     </view>
+     <view wx:for="{{ad_images}}" class='ad-img mt10'>
+          <image src='{{item.picurl}}'></image>
+     </view>
+     <view class='notice mt10'>
+          <swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="3000">
+            <block wx:for="{{msgList}}">
+            <navigator url="/pages/mall/newsdetail?title={{item.url}}" open-type="navigate">
+              <swiper-item>
+              <view class="swiper_item">{{item.title}}</view>
+              </swiper-item>
+            </navigator>
+            </block>
+          </swiper>
+     </view>
+     <view class='ipro-head mt10'>
+        <view class='ipro-head-twrap'>
+            <view class='ipro-head-l'></view> 
+            <text class='ipro-head-t'>热卖推荐</text>  
+        </view>
+     </view>
+     <view class="ipro-template">
+        <block wx:for="{{iproLists}}" wx:for-item="iproList" wx:key="index">
+            <template is="iproTemplate" data="{{...iproList}}"/>
+        </block>
+     </view>
+     <view class='ipro-head mt10'>
+        <view class='ipro-head-twrap'>
+            <view class='ipro-head-l'></view> 
+            <text class='ipro-head-t'>猜你喜欢</text>  
+        </view>
+     </view>
+
+     <view class="pro-template">
+        <block wx:for="{{proLists}}" wx:for-item="proList" wx:key="index">
+            <template is="proTemplate" data="{{...proList}}"/>
+        </block>
+     </view>
+</view>
