@@ -6,6 +6,8 @@
 
 里面包含微信商城的各级页面,以及个人中心！
 
+######附带了之前learning过程中做过的豆瓣电影小程序
+
 效果图
 
 ![首页](https://github.com/xianxianzhuyi/MarkdownImages/blob/master/QQ%E6%88%AA%E5%9B%BE20171224102940.png) 
